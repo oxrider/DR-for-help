@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DLSignUpViewController">
+            <connections>
+                <outlet property="arrow1" destination="VQa-Ea-g7J" id="6JU-Ej-CmZ"/>
+                <outlet property="arrow2" destination="AOa-Oj-4Kd" id="E4J-EJ-zhb"/>
+                <outlet property="arrow3" destination="F7E-UC-TfQ" id="UuE-nz-gzR"/>
+                <outlet property="bigHeadPicView" destination="e9p-os-dyc" id="kr9-2h-cDh"/>
+                <outlet property="collectionView" destination="H3W-YL-f75" id="92m-zh-C7e"/>
+                <outlet property="continueBtn" destination="Uve-t8-Twq" id="EqY-CS-vK3"/>
+                <outlet property="nameField" destination="DJ1-dp-o7Z" id="msO-f3-xhx"/>
+                <outlet property="netidField" destination="z4L-yh-CIZ" id="KBE-kS-0Fd"/>
+                <outlet property="passwordField" destination="3gd-wn-bSl" id="5PO-Jw-0Jk"/>
+                <outlet property="phoneField" destination="Y1s-Dp-q3p" id="CJs-JS-58E"/>
+                <outlet property="sunView" destination="Ejs-O2-0xq" id="wPF-WN-8EC"/>
+                <outlet property="threeDotsView" destination="zqt-Tb-UP3" id="clo-Wv-flx"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="allViewsCollection" destination="eGr-ZY-aYu" id="a2g-FQ-hqz"/>
+                <outletCollection property="allViewsCollection" destination="b8a-bI-VZ9" id="Abb-PS-bGl"/>
+                <outletCollection property="allViewsCollection" destination="VQa-Ea-g7J" id="vZN-Bm-GoY"/>
+                <outletCollection property="allViewsCollection" destination="AOa-Oj-4Kd" id="J0X-ll-qgf"/>
+                <outletCollection property="allViewsCollection" destination="F7E-UC-TfQ" id="OcQ-9w-lie"/>
+                <outletCollection property="allViewsCollection" destination="Ejs-O2-0xq" id="hsV-ck-huo"/>
+                <outletCollection property="allViewsCollection" destination="z4L-yh-CIZ" id="oWI-Ee-JWE"/>
+                <outletCollection property="allViewsCollection" destination="3gd-wn-bSl" id="6fA-EO-4bb"/>
+                <outletCollection property="allViewsCollection" destination="Y1s-Dp-q3p" id="QLy-em-xuY"/>
+                <outletCollection property="allViewsCollection" destination="DJ1-dp-o7Z" id="Brn-1a-t7M"/>
+                <outletCollection property="allViewsCollection" destination="e9p-os-dyc" id="M5X-rG-CHs"/>
+                <outletCollection property="allViewsCollection" destination="Uve-t8-Twq" id="9oM-6k-w4E"/>
+                <outletCollection property="allViewsCollection" destination="H3W-YL-f75" id="q0K-uA-mzS"/>
+                <outletCollection property="allViewsCollection" destination="CFQ-TS-kda" id="0KV-0m-A8P"/>
+                <outletCollection property="allViewsCollection" destination="ET2-Jg-tuu" id="Ebo-1p-xYR"/>
+                <outletCollection property="allViewsCollection" destination="zqt-Tb-UP3" id="gmS-qr-YDc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pic Plate.png" translatesAutoresizingMaskIntoConstraints="NO" id="eGr-ZY-aYu">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Information Blank.png" translatesAutoresizingMaskIntoConstraints="NO" id="b8a-bI-VZ9">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Three Dots.png" translatesAutoresizingMaskIntoConstraints="NO" id="zqt-Tb-UP3">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="VQa-Ea-g7J">
+                    <rect key="frame" x="3" y="65" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="AOa-Oj-4Kd">
+                    <rect key="frame" x="0.0" y="65" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="F7E-UC-TfQ">
+                    <rect key="frame" x="-3" y="65" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sun.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ejs-O2-0xq">
+                    <rect key="frame" x="147" y="482" width="26" height="26"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="NetID" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="z4L-yh-CIZ">
+                    <rect key="frame" x="42" y="251" width="97" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="BDG-oy-LjY"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" alpha="0.0" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DJ1-dp-o7Z">
+                    <rect key="frame" x="175" y="251" width="97" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="J8b-My-22E"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" alpha="0.0" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3gd-wn-bSl">
+                    <rect key="frame" x="42" y="294" width="230" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="2Fp-HL-c67"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" alpha="0.0" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Mobile Number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y1s-Dp-q3p">
+                    <rect key="frame" x="42" y="334" width="230" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="jXh-bU-PlF"/>
+                    </connections>
+                </textField>
+                <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" bounces="NO" alwaysBounceHorizontal="YES" scrollEnabled="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="H3W-YL-f75">
+                    <rect key="frame" x="45" y="166" width="230" height="49"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="0.78823529411764703" green="0.22745098039215686" blue="0.26666666666666666" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hd0-uz-Jtc">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <cells/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="sJk-z8-Y3Z"/>
+                        <outlet property="delegate" destination="-1" id="K2Z-LT-HHy"/>
+                    </connections>
+                </collectionView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Head 01.png" translatesAutoresizingMaskIntoConstraints="NO" id="e9p-os-dyc">
+                    <rect key="frame" x="123" y="103" width="75" height="75"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uve-t8-Twq">
+                    <rect key="frame" x="42" y="372" width="236" height="41"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Continue">
+                        <color key="titleColor" red="0.78823529411764703" green="0.22745098039215686" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CFQ-TS-kda">
+                    <rect key="frame" x="42" y="128" width="73" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="scrollLeft:" destination="-1" eventType="touchUpInside" id="c35-Jm-bNP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ET2-Jg-tuu">
+                    <rect key="frame" x="206" y="128" width="72" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="scrollRight:" destination="-1" eventType="touchUpInside" id="1Df-gC-zhm"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.78823529411764703" green="0.22745098039215686" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Head 01.png" width="122" height="122"/>
+        <image name="Information Blank.png" width="640" height="1136"/>
+        <image name="Pic Plate.png" width="640" height="1136"/>
+        <image name="Sun.png" width="438" height="438"/>
+        <image name="Three Dots.png" width="640" height="1136"/>
+        <image name="arrow.png" width="640" height="1136"/>
+    </resources>
+</document>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.AsianRocks.Dinner-Roulette</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>MYRIADPRO-BOLD.OTF</string>
+		<string>MYRIADPRO-BOLDCOND.OTF</string>
+		<string>MYRIADPRO-BOLDCONDIT.OTF</string>
+		<string>MYRIADPRO-COND.OTF</string>
+		<string>MYRIADPRO-CONDIT.OTF</string>
+		<string>MYRIADPRO-REGULAR.OTF</string>
+		<string>MYRIADPRO-SEMIBOLD.OTF</string>
+		<string>MYRIADPRO-SEMIBOLDIT.OTF</string>
+		<string>MYRIADPRO-BOLDIT.OTF</string>
+	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+</dict>
+</plist>

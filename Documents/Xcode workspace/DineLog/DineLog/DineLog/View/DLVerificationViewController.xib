@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DLVerificationViewController">
+            <connections>
+                <outlet property="completionBoard" destination="5hU-iU-ALF" id="nwm-3n-PCJ"/>
+                <outlet property="dotsView" destination="tbm-ZC-Dtg" id="c8R-ub-EOe"/>
+                <outlet property="emailCont" destination="dHw-f2-iQp" id="vIg-LR-AcZ"/>
+                <outlet property="emailField" destination="rN8-ms-MfK" id="XFd-1f-wIA"/>
+                <outlet property="emailResend" destination="JHo-dl-wjf" id="254-hr-bwG"/>
+                <outlet property="textCont" destination="tsJ-ws-J3L" id="bGw-6V-t4D"/>
+                <outlet property="textField" destination="v7v-cz-g4P" id="dDN-z4-AKS"/>
+                <outlet property="textResend" destination="BJl-km-ykd" id="gVh-Sb-VrU"/>
+                <outlet property="veriBoard1" destination="fRr-RE-6kp" id="HUU-aC-WeX"/>
+                <outlet property="veriBoard2" destination="8a9-vp-ZC9" id="Voh-sA-6xi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="Veri1Collection" destination="fRr-RE-6kp" id="zbm-5s-fPG"/>
+                <outletCollection property="Veri1Collection" destination="v7v-cz-g4P" id="5hZ-ik-nfI"/>
+                <outletCollection property="Veri1Collection" destination="BJl-km-ykd" id="Xn8-Gc-9Bj"/>
+                <outletCollection property="Veri1Collection" destination="tsJ-ws-J3L" id="Pl9-AE-0Tv"/>
+                <outletCollection property="Veri2Collection" destination="8a9-vp-ZC9" id="7kP-Kc-D3p"/>
+                <outletCollection property="Veri2Collection" destination="rN8-ms-MfK" id="pm3-1O-1Rs"/>
+                <outletCollection property="Veri2Collection" destination="JHo-dl-wjf" id="TTl-SY-TGs"/>
+                <outletCollection property="Veri2Collection" destination="dHw-f2-iQp" id="tdf-ed-vE5"/>
+                <outletCollection property="allViewCollection" destination="fRr-RE-6kp" id="yQJ-d4-3eN"/>
+                <outletCollection property="allViewCollection" destination="5hU-iU-ALF" id="xxn-DO-FyI"/>
+                <outletCollection property="allViewCollection" destination="8a9-vp-ZC9" id="RFZ-Vs-7p9"/>
+                <outletCollection property="allViewCollection" destination="v7v-cz-g4P" id="1mr-s8-7Jc"/>
+                <outletCollection property="allViewCollection" destination="BJl-km-ykd" id="r1n-eZ-iiX"/>
+                <outletCollection property="allViewCollection" destination="tsJ-ws-J3L" id="Q6p-aj-Fan"/>
+                <outletCollection property="allViewCollection" destination="rN8-ms-MfK" id="kDC-jT-zvf"/>
+                <outletCollection property="allViewCollection" destination="JHo-dl-wjf" id="tgb-eh-Jg3"/>
+                <outletCollection property="allViewCollection" destination="dHw-f2-iQp" id="pU9-1v-Vof"/>
+                <outletCollection property="allViewCollection" destination="tbm-ZC-Dtg" id="qrc-xB-uwW"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2nd three dots.png" translatesAutoresizingMaskIntoConstraints="NO" id="tbm-ZC-Dtg">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Verification board without text.png" translatesAutoresizingMaskIntoConstraints="NO" id="fRr-RE-6kp">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Complete plate.png" translatesAutoresizingMaskIntoConstraints="NO" id="5hU-iU-ALF">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Verification board without text.png" translatesAutoresizingMaskIntoConstraints="NO" id="8a9-vp-ZC9">
+                    <rect key="frame" x="0.0" y="147" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Text Code" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v7v-cz-g4P">
+                    <rect key="frame" x="42" y="132" width="236" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="hLo-6X-6aI"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BJl-km-ykd">
+                    <rect key="frame" x="37" y="178" width="113" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Resend">
+                        <color key="titleColor" red="0.78823529411764703" green="0.2196078431372549" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsJ-ws-J3L">
+                    <rect key="frame" x="165" y="176" width="113" height="33"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Continue">
+                        <color key="titleColor" red="0.78823529411764703" green="0.2196078431372549" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Code" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rN8-ms-MfK">
+                    <rect key="frame" x="42" y="282" width="236" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Xk0-fO-pLT"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JHo-dl-wjf">
+                    <rect key="frame" x="37" y="323" width="113" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Resend">
+                        <color key="titleColor" red="0.78823529410000004" green="0.21960784310000001" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHw-f2-iQp">
+                    <rect key="frame" x="165" y="321" width="113" height="33"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="Continue">
+                        <color key="titleColor" red="0.78823529410000004" green="0.21960784310000001" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.78823529411764703" green="0.2196078431372549" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="2nd three dots.png" width="640" height="1136"/>
+        <image name="Complete plate.png" width="640" height="1136"/>
+        <image name="Verification board without text.png" width="640" height="1136"/>
+    </resources>
+</document>

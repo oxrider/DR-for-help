@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DLLogInViewController">
+            <connections>
+                <outlet property="arrowView_1" destination="LQh-4C-BLF" id="b9X-gj-wHQ"/>
+                <outlet property="arrowView_2" destination="Kfb-Sa-mst" id="eYa-Va-rhe"/>
+                <outlet property="arrowView_3" destination="EAA-qM-RHS" id="Ewa-Yu-BWX"/>
+                <outlet property="btnPlateView" destination="KGt-d7-YIx" id="uQj-wv-bQX"/>
+                <outlet property="forgotButton" destination="8hp-Hu-lA0" id="zht-Sq-EID"/>
+                <outlet property="inputPlateView" destination="tpn-38-vng" id="RVT-3e-3D4"/>
+                <outlet property="loginButton" destination="c7D-dR-YWg" id="tQc-57-uvf"/>
+                <outlet property="netidField" destination="2xQ-ki-f9p" id="ekh-98-PkX"/>
+                <outlet property="passwordField" destination="4A5-Ri-ziY" id="Y5O-C8-Qxp"/>
+                <outlet property="sunView" destination="8KP-bP-O7M" id="uoh-2G-d2Q"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sun.png" translatesAutoresizingMaskIntoConstraints="NO" id="8KP-bP-O7M">
+                    <rect key="frame" x="146" y="417" width="26" height="26"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Plate Big.png" translatesAutoresizingMaskIntoConstraints="NO" id="tpn-38-vng">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Plate Small.png" translatesAutoresizingMaskIntoConstraints="NO" id="KGt-d7-YIx">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="LQh-4C-BLF">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="Kfb-Sa-mst">
+                    <rect key="frame" x="-3" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="EAA-qM-RHS">
+                    <rect key="frame" x="-6" y="0.0" width="320" height="568"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="NetID" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2xQ-ki-f9p">
+                    <rect key="frame" x="42" y="112" width="236" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="eYG-HB-z1j"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4A5-Ri-ziY">
+                    <rect key="frame" x="42" y="150" width="236" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="gdE-8O-hwB"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hp-Hu-lA0">
+                    <rect key="frame" x="42" y="186" width="236" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Forgot Password">
+                        <color key="titleColor" red="0.57647058823529407" green="0.57647058823529407" blue="0.57647058823529407" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" alpha="0.0" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7D-dR-YWg">
+                    <rect key="frame" x="42" y="253" width="236" height="41"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Log In">
+                        <color key="titleColor" red="0.78823529411764703" green="0.22745098039215686" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.78823529411764703" green="0.22745098039215686" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Plate Big.png" width="640" height="1136"/>
+        <image name="Plate Small.png" width="640" height="1136"/>
+        <image name="Sun.png" width="438" height="438"/>
+        <image name="arrow.png" width="640" height="1136"/>
+    </resources>
+</document>
